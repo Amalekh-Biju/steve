@@ -69,6 +69,9 @@ import ReactDOM from "react-dom";
             <input type="password" name="pass" required placeholder='Enter Your Password'/>
             {renderErrorMessage("pass")}
           </div>
+          <div class="userlogin">
+          <a href="#userlogin">Not an Admin</a>
+          </div>
           <div className="button-container">
             <input type="submit" />
           </div>
